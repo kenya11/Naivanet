@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="auto-refresh" content="2; url=$(link-redirect)" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+    <title>Internet hotspot - Redirect</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script>
+           function startClock() {
+               $(if popup == 'true')
+               open('$(link-status)', 'hotspot_status', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=290,height=200');
+           $(endif)
+           location.href = unescape('$(link-redirect-esc)');
+           }
+
+          function openLogout() {
+      if (window.name != 'hotspot_status') return true;
+             open('$(link-logout)', 'hotspot_logout', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=280,height=250');
+      window.close();
+      return false;
+         }
+    </script>
+  </head>
+
+  <body onLoad="startClock()">
+    <div class="ie-fixMinHeight">
+      <div class="main">
+        <div class="wrap">
+          <!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In
+
+          <svg
+            class="logo"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            width="150px"
+            height="150px"
+            viewBox="0 0 200 150"
+            style="overflow: visible; enable-background: new 0 0 200 200"
+            xml:space="preserve"
+          >
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              style="
+                overflow: visible;
+                enable-background: new 0 0 191.39 191.39;
+              "
+              xml:space="preserve"
+            >
+              <style type="text/css">
+                .st0 {
+                  fill: #6bbd45;
+                }
+              </style>
+              <defs></defs>
+              <g>
+                <path
+                  class="st0"
+                  d="M95.7,191.39C42.93,191.39,0,148.46,0,95.7S42.93,0,95.7,0s95.7,42.93,95.7,95.7S148.46,191.39,95.7,191.39z
+    M95.7,2C44.03,2,2,44.03,2,95.7s42.03,93.7,93.7,93.7s93.7-42.03,93.7-93.7S147.36,2,95.7,2z"
+                />
+              </g>
+              <g>
+                <g>
+                  <path
+                    class="st0"
+                    d="M43.5,103.02c3.5,3.5,6.99,6.99,10.49,10.49c5.57,5.57,11.15,11.15,16.72,16.72
+       c1.28,1.28,2.56,2.56,3.84,3.84c0.72,0.72,1.93,0.72,2.65,0c2.6-2.6,5.2-5.2,7.8-7.8c6.22-6.22,12.43-12.43,18.65-18.65
+       c7.55-7.55,15.1-15.1,22.64-22.64c6.5-6.5,13-13,19.51-19.51c3.17-3.17,6.48-6.24,9.53-9.53c0.04-0.05,0.09-0.09,0.13-0.13
+       c1.71-1.71-0.94-4.36-2.65-2.65c-2.6,2.6-5.2,5.2-7.8,7.8c-6.22,6.22-12.43,12.43-18.65,18.65c-7.55,7.55-15.1,15.1-22.64,22.64
+       c-6.5,6.5-13,13-19.51,19.51c-2.15,2.15-4.31,4.31-6.46,6.46c-1,1-2.18,1.96-3.07,3.07c-0.04,0.05-0.09,0.09-0.13,0.13
+       c0.88,0,1.77,0,2.65,0c-3.5-3.5-6.99-6.99-10.49-10.49c-5.57-5.57-11.15-11.15-16.72-16.72c-1.28-1.28-2.56-2.56-3.84-3.84
+       C44.44,98.66,41.79,101.31,43.5,103.02L43.5,103.02z"
+                  />
+                </g>
+              </g>
+            </svg>
+          </svg>
+        -->
+        <!--SVG tick logo-->  
+        <div class="animation-ctn">
+            <div class="icon icon--order-success svg">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="154px"
+                height="154px"
+              >
+                <g fill="none" stroke="#22AE73" stroke-width="2">
+                  <circle
+                    cx="77"
+                    cy="77"
+                    r="72"
+                    style="
+                      stroke-dasharray: 480px, 480px;
+                      stroke-dashoffset: 960px;
+                    "
+                  ></circle>
+                  <circle
+                    id="colored"
+                    fill="#22AE73"
+                    cx="77"
+                    cy="77"
+                    r="72"
+                    style="
+                      stroke-dasharray: 480px, 480px;
+                      stroke-dashoffset: 960px;
+                    "
+                  ></circle>
+                  <polyline
+                    class="st0"
+                    stroke="#fff"
+                    stroke-width="10"
+                    points="43.5,77.8 63.7,97.9 112.2,49.4 "
+                    style="
+                      stroke-dasharray: 100px, 100px;
+                      stroke-dashoffset: 200px;
+                    "
+                  />
+                </g>
+              </svg>
+            </div>
+          </div>
+          <h1 class="info">You are logged in</h1>
+          <a href="tel:0758298175"></a><img src="img/love2.jpeg" class="advertPoster" /></a>
+
+          <form
+            action="$(link-logout)"
+            name="logout"
+            onSubmit="return openLogout()"
+          >
+            <br />
+            <input type="submit" value="LOGOUT" />
+            <br />
+          </form>
+
+          <p class="info">
+            If nothing happens, click <a href="$(link-redirect)">here</a>
+          </p>
+
+          <div class="info" style="color: white">
+            <a
+              href="https://youtu.be/AlZ8o0966iE"
+              class="fa fa-wordpress"
+              >&nbsp; &nbsp; | &nbsp;@naivanettech.com &nbsp;</a
+            > <br><br>
+            <p class="info bt">Powered by Naivanet Technologies</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
